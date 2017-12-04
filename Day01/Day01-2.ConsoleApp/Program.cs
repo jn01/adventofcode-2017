@@ -8,13 +8,9 @@ namespace Day01_2.ConsoleApp
 
         static void Main(string[] args)
         {
-            Console.WriteLine($"Total Length: {input.Length}");
 
             string firstHalf = input.Substring(0, (input.Length / 2));
             string secondHalf = input.Substring(input.Length / 2);
-
-            Console.WriteLine($"First: { firstHalf.Length }");
-            Console.WriteLine($"Second: { secondHalf.Length }");
 
             int total = 0;
 
