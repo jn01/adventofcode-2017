@@ -17,9 +17,6 @@ namespace Part2.ConsoleApp
                 .Select(x => x.y / x.z)
                 .FirstOrDefault();
 
-            //var evenlyDivided = cross.Where(x => x.y % x.z == 0);
-                //.Select(x => x.y / x.z);
-
             return result;
         }
     }
